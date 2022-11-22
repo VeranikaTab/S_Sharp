@@ -7,12 +7,12 @@ string a = Console.ReadLine();
 int N = int.Parse(a);
 int N1 = 2;
 
-while (N1 < N)
+while (N1 <= N)
 {
     if (N1 > 1)
     {
-        Console.WriteLine("четные числа заданного числа N: "+N1);
-        
+        Console.Write($"{N1}, ");
     }
     N1 +=2;
 }
+Console.Write("-все четные числа от 1 до заданного числа");
